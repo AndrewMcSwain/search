@@ -40,8 +40,8 @@ function getArray(){
      };
 };
                          
-function combineArrays(){
- 	;}              
+//function combineArrays(){
+// 	;}              
   
                          
 console.log(getSome());
