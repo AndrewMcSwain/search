@@ -34,11 +34,18 @@ var matchWords = [];
 function getArray(){
 	var stringArray = text.split(" ");
   	for (i = 0; i < stringArray.length; i++){
-      var stringIndex = stringArray[i].indexOf(letter, dickSize);
-      if (stringIndex == letter){
-        matchWords.push(stringArray);
-      };
-     };
+      	var stringIndex = stringArray[i];c
+	for (b = 0; b < stringIndex.length; b++ )
+
+	
+	 {
+		  var itemSearch = stringIndex.indexOf(letter, b);
+		  if (stringIndex >=0 ){
+        		matchWords.push([stringIndex);
+	 		}	
+      }
+      return  
+     }
 };
                          
                          
