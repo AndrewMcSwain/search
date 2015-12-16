@@ -15,7 +15,7 @@ function findLetter(letter){
   var inpussy = [];
  
   // for fun
-  function grow(){dickSize++;};
+  function grow(){dickSize++;}
   
   //the mechanism to search for the letter and store the index
  function getSome(){
@@ -24,13 +24,14 @@ function findLetter(letter){
       if (dickSize == dick){
   	  	inpussy.push(dick);}
       grow();  
- 	};
+ 	}
    return inpussy;
  };
+return getSome();
 
 var matchWords = [];  
  
-function getArray(){
+/*function getArray(){
 	var stringArray = text.split(" ");
   	for (i = 0; i < stringArray.length; i++){
       var stringIndex = stringArray[i].indexOf(letter, dickSize);
@@ -42,7 +43,7 @@ function getArray(){
                          
 //function combineArrays(){
 // 	;}              
-  
+  */
                          
 console.log(getSome());
 console.log(getArray());  
