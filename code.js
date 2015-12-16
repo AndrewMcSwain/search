@@ -31,7 +31,7 @@ return getSome();
 
 var matchWords = [];  
  
-/*function getArray(){
+function getArray(){
 	var stringArray = text.split(" ");
   	for (i = 0; i < stringArray.length; i++){
       var stringIndex = stringArray[i].indexOf(letter, dickSize);
@@ -41,9 +41,6 @@ var matchWords = [];
      };
 };
                          
-//function combineArrays(){
-// 	;}              
-  */
                          
 console.log(getSome());
 console.log(getArray());  
