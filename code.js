@@ -26,29 +26,11 @@ function findLetter(letter){
       grow();  
  	}
    return inpussy;
- };
+ }
+ 
 return getSome();
 
-var matchWords = [];  
- 
-/*function getArray(){
-	var stringArray = text.split(" ");
-  	for (i = 0; i < stringArray.length; i++){
-      var stringIndex = stringArray[i].indexOf(letter, dickSize);
-      if (stringIndex == letter){
-        matchWords.push(stringArray);
-      };
-     };
-};
-                         
-//function combineArrays(){
-// 	;}              
-  */
-                         
-console.log(getSome());
-console.log(getArray());  
-
-  
+console.log(findLetter("a"));
   
 };
 
